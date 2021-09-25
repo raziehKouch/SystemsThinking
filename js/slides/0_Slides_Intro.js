@@ -66,6 +66,7 @@ SLIDES.push({
 		});
 
 		// Button
+		/*****
 		self.add({
 			id:"loading_button", type:"Button", x:382, y:410,
 			text_id:"loading",
@@ -75,6 +76,7 @@ SLIDES.push({
 			ratio = Math.round(ratio*100);
 			o.loading_button.setText2(Words.get("loading")+" "+ratio+"%");
 		};
+		*****/
 
 		// PRELOADER
 		listen(self,"preloader/progress", function(ratio){
